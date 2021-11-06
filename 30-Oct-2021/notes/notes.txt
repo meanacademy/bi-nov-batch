@@ -1,0 +1,18 @@
+Working/Project Directive = Root Directive
+Root Directive = Root Path
+
+Access Root Path / Current path
+"./"
+
+Access Sub Folder of Root Directive
+"./js/myScript.js"
+
+"./assets/data/mydata.json"
+
+if you are in css folder and want to select mydata.json
+
+"../assets/data/mydata.json"
+
+If you are in data folder and want to select myScript.js
+
+"../../js/myScript.js"

@@ -1,0 +1,45 @@
+Git?
+- Git is free, open source distributed version control system.
+
+What Git can do?
+    - it keeps track of projects and files
+
+How to install Git
+1. Navigate to git official website
+2. Download the latest version of Git
+3. install git and verify by:
+    git --version
+
+
+Terminologis:
+staging:
+
+Git Bash
+
+Git Commands
+Config your git 
+
+git config --global user.name "mahesh bodhgire"
+git config --global user.email "mahesh.boardinfinity@gmail.com"
+
+1. git init - Initaialize git project
+2. git add file_name (it will add single file at a time)
+   git add . (this command will add all the files and folder into git repository)
+3. git status
+4. git commit -m "first commit form mahesh"
+5. git log
+
+To verify current/local repository is having remote repository or not.
+
+    git remote -v
+
+To add remote repository
+
+    git remote add repo_name remote-repository-url
+
+To push local repository content to remote repository
+
+    git push --set-upstream mygitdemo main
+    git push repo-name
+
+git pull
