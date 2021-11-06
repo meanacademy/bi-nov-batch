@@ -1,0 +1,45 @@
+JS - JavaScript
+    - It is a scripting language.
+    - set of instructions
+    - these instructions are executed/run by system
+
+Why JS?
+    - Easy to learn
+    - Easy and Simple to implement
+    - any one(also non-IT background) can learn JS
+    - To build web and mobile applications (cross platform) with same codebase
+
+History of JavaScript
+    - EchmaScript (ES)
+    - ES 6
+
+How to use JavaScript?
+    - JS can run on modern web browsers (Google Chrome, Mozilla Firefox, Safari, Opera, etc.)
+    - These web browsers having JS Runtime Engine to convert JS code to machine code.
+    - JS code can be run on command line / command prompt using node.js
+    - Put JS code in HTML - Head tag or before closing the body tag using <script> tag.
+
+Where/Import types
+1. Internal JavaScript
+    add JS code in head tag or before the closing body tag using <script> tag.
+    Ex. 
+    1.  <head>
+            <script>
+                //js code
+            </script>
+        </head>
+    2.  
+    <body>
+        ....
+        ....
+        <script>
+                //js code
+        </script>
+    </body>
+
+
+2. External JavaScript
+    - Write all the JS code into new file and save file with .js extention
+    - After writing JS code into external file, import it in head tag or before closing body tag.
+
+
