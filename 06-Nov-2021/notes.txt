@@ -1,0 +1,70 @@
+git clone https://github.com/meanacademy/bi-nov-batch.git
+
+JS Outputs:
+    1. document.write()
+    2. alert()  
+    3. innerHTML
+    4. console.log()
+
+Commnets:
+    Single Line Commnet
+    // comment
+    Multi-Line Commnets
+    /* 
+    comments
+    */
+
+Variables and Constants:
+Variable: It is a container where we can store some value
+Definition:
+    var name;
+Variable Initialization:
+    name = "Mahesh";
+
+var name = "Mahesh Bodhgire";
+
+Syntax:
+    var variable_name;
+    or
+    var variable_name = value;
+
+"let keyword":
+- it is introduced in ES6 (EchmaScript 6)
+- it is used for creating variables
+Syntax:
+    let variable_name;
+    or 
+    let variable_name = value;
+
+constants:
+    "const keyword"
+    const pi = 3.14;
+    const onemb = 1024;
+    const company_name = "Board Infinity";
+
+
+?. difference between var, let and const
+
+Parameters      var                     let                         const
+scope           global                  local or block              global
+assignment      reassign value - true   reassign value - true       can not
+declaration     same variable name can  we can not                  we can not
+                used for declaration
+Data Types:
+    Premetive data type
+        string
+        number
+        boolean
+        undefined
+        null
+    
+    ? Difference between undefined and null
+        - null is defined but nothing means an empty.
+        - Undefined means a variable has be declared but not defined
+        - null is a type of an object
+        - undefined is a type of undefined
+
+    Non-Premetive data type (Dynamic)
+        array
+        function
+        object
