@@ -1,0 +1,58 @@
+JS Operators
+
+1. typeof 
+    It returns the data type of a variable.
+
+2. Arithmatic Operators
+    + plus
+    - minus
+    * multiplication
+    / divide
+    ** expontial
+    % modulus
+    ++ increment (+1)
+    -- decrement (-1)
+
+3. Assignment Operators
+    = assign a new value to a variable.
+    += it will assign a value with increment of 1.
+    -= it will assign a value with decrement of 1.
+    *= it will multiply with given variable value.
+    /= it will divide with given variable value.
+    %= it will modulus of no(variable value)
+    **= it will expontial with a given value.
+
+4. Comparison Operators
+    == checks the two values if they are same or equal.
+    === checks the two values as well as their data types.
+    != checks the two values if they are not same or equal.
+    !== checks the two values as well as their data types are not equal.
+    > it checks the greater than number
+    >= check the greater than and equal to number.
+    < it checks the less than number.
+    <= checks the less than and equal to number.
+
+    comparison operators always returns the boolean value.
+    if the string can convert into number, it converts automatically.
+
+    Ternary operator
+    Syntax:
+    condition(can be use comparison operators) ? expression1 : expression2
+
+5. Logical operators
+    && AND
+        C1  C2  Result
+        T   T   T
+        F   T   F
+        T   F   F
+        F   F   F
+    || OR
+        C1  C2  Result
+        T   T   T
+        F   T   T
+        T   F   T
+        F   F   F
+    ! NOT
+        C   Result
+        T   F
+        F   T
