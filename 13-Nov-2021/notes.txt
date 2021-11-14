@@ -1,0 +1,17 @@
+JS Stings
+
+JS Strings is a zero or more characters writen within quotes (' or ").
+
+let name = 'Mahesh';
+let address = "Pune";
+let str = '';
+let str2 = "";
+
+
+String Property
+length - returns the length of a string.
+
+Methods for JS Strings
+1 indexOf('str')
+it returns an index of first occurance of  specified text / string.
+

@@ -1,0 +1,52 @@
+JS Numbers
+
+- in js numbers are always 64-bit
+
+1. value/fraction - 52 bit
+2. exponent - 11 bit
+3. sign - 1 bit
+
+Precision: 
+- an interger number are upto 15 digits
+var n = 999999999999999;
+
+- a floating number is upto 17 digits
+
+NaN - Not a Number
+
+To check Not a Number
+isNaN(variable/value);
+it always returns a boolean value (true or false)
+
+Inifinity and -Infinity
+
+JS Number Methods
+1. toString()
+2. toExponential(n) 
+    n - it should be in between 0-100
+3. toFixed(n)
+    - returns string
+    - n - no of decimals values
+4. toPrecision(n)
+    - retruns string
+    - n - length 
+5. valueOf()
+    - returns value of number/variable
+
+Number class methods (conversion methods) / Number Parsing
+1. Number()
+2. parseInt()
+3. parseFloat()
+
+JS Properties
+Get Max Number in JS
+Number.MAX_VALUE
+
+Get Min Number in JS
+Number.MIN_VALUE
+
+Positive Infinity
+Number.POSITIVE_INFINITY
+
+Negative Infinity
+Number.NEGATIVE_INFINITY

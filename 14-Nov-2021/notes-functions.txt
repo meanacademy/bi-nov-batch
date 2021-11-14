@@ -1,0 +1,43 @@
+JS Function
+
+Function?
+- It is a block of code to be executed by user or other functions or itself
+- It can be reuse for programming and executing block of code repeatedly
+
+Syntax:
+function function_name(p){
+    //block of code 
+    //reusable code
+}
+
+Types of JS functions
+1. Default Function
+    function function_name(){
+        //block of code
+    }
+2. Parameter Function
+    function function_name(p){
+        //block of code
+    }
+3. Return Default Function
+    function function_name(){
+        //block of code
+        return some_value;
+    }
+4. Return Parameter Function
+    function function_name(p){
+        //block of code
+        return some_value;
+    }
+
+ES6 - Arrow Function
+
+function function_name(p){
+    //block of code 
+    //reusable code
+}
+
+let function_name = (p)=>{
+    //block of code 
+    //reusable code
+}
