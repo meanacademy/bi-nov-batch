@@ -1,0 +1,71 @@
+JS Array Iterations Methods
+
+1. forEach()
+    - forEach() calls a callback function once for each element 
+
+    Syntax: 
+        arrayName.forEach(function(element){
+            //block of code
+        })
+
+2. map()
+    - it creates a new array by performing a function on each array element
+    - it doesnt change original array
+
+    Syntax: 
+        arrayName.map(function(element){
+            //block of code
+            retrun new_value;
+        })
+
+3. filter()
+    - it returns the elements of an array that meets the condition specified in a callback function
+    - it returns a specified condition satisfied new array
+    Syntax: 
+        arrayName.filter(function(element){
+            //block of code
+            retrun value;
+        })
+
+4. reduce()
+    - it calls the specified callback functio;n for all the elements
+    - the return value of the callback function is the accumulated result
+
+    Syntax: 
+        arrayName.reduce(function(result, element){
+            //block of code
+            retrun new_value
+        }, initial_value)
+
+    
+5. some()
+    - it determines whether the specified callback function returns true for any element of an array
+
+    Syntax:
+        arrayName.some(function(element){
+            retrun booleanValue;
+        })
+
+6. every()
+    - it determines whether all the elements of an array satisfied with given condition
+
+    Syntax:
+        arrayName.every(function(element){
+            retrun booleanValue;
+        })
+
+7. find()
+    - it returns the value of the first element in the array where predicate is true, otherwise undefined
+
+    Syntax:
+        arrayName.find(function(element){
+            retrun value;
+        })
+
+8. findIndex()
+    - it returns the index of the first element in the array where predicate is true, otherwise undefined
+
+    Syntax:
+        arrayName.findIndex(function(){
+            return value;
+        })

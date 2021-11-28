@@ -1,0 +1,20 @@
+ES6 
+    let and const
+
+
+Scopes:
+    global scope
+        the variables can be accessable in entire file
+    local scope/block scope
+        the variables can be accessable within block level only
+
+    Block - { }
+
+
+Difference for var, let and const
+
+Parameters                  var                                 let                     const
+declaration                 multiple with same varibale name    not possible            not possible
+reassign values             Possible                            Possible                Not Possible
+set null values/undefined   Possible                            Possible                Not Possible
+scope                       functional scope                    block scope             block scope

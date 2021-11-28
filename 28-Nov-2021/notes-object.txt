@@ -1,0 +1,47 @@
+JS Object:
+    - Object is a collection or group of multiple properties.
+
+    Person as an Object
+    
+        Person Properties
+        name
+        age
+        gender
+        height
+        weight
+        color
+        hobbies
+        education
+        
+How to Declare Object in JS:
+
+
+let objectName = {
+    property1: value1,
+    property2: value2,
+    property3: value3,
+    .
+    .
+    .
+    .
+    propertyN: valueN,
+}
+
+Property - naming convention for an object parameter/properties
+value - value may be a string, number, boolean, array, undefined, null, object
+
+Example:
+
+let person = {
+    name: "Mahesh Bodhgire",
+    age: 30,
+    isGraduated: true,
+    hobbies: ["coding", "cooking", "travelling"],
+}
+
+How to access object properties:
+    1. with dot(.) notation
+        objectName.propertyName;
+
+    2. with braket ([]) notation
+        objectName["propertyName"];
