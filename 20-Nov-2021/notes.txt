@@ -1,0 +1,84 @@
+JS Array
+
+- It is a container which contains multiple values in a single variable
+
+Syntax:
+    let arrayName = [
+        item1,
+        item2,
+        item3,
+        .
+        .
+        .
+        .
+        itemN
+    ];
+
+Ex.:
+
+let names = ["Mahesh", "Aakash", "Gaurav", "Sunil", "Akansha", "Suraj"];
+let scores = [98,75,87,25,85,99];
+
+
+Access item/element of an array:
+    - each element or item has its own index number in an array
+    - index number starts with 0
+    - we can access array item/element by its index number
+    - index number also called as position/position number for an array element
+
+Syntax:
+    arrayName[indexNumber];
+
+let names = ["Mahesh", "Aakash", "Gaurav", "Sunil", "Akansha", "Suraj"];
+Index Numbers - 0       1           2       3           4          5
+
+log(names[3])
+
+Properties and Methods for array
+Property
+    1. length
+        it always returns the length of an array or size of an array.
+
+        Syntax:
+        let arrLength = arrayName.length;
+
+Verify array:
+    1. Array.isArray(arrayName);
+    2. arrayName instanceof Array;
+
+JS Array Methods:
+    1.toString - convert array to string
+    2.join(joiner) - joiner - seperator
+    3.pop() - it removes last element from an array and returns poped value
+    4.push() - it adds new element to an array at last position
+    5.shift()- it removes the first element of an array.
+    6.unshift() - it adds new element to an array at beginning.
+    7.delete - it changes the elements to undefined.
+    8.concat() - it merges two or more than two arrays together
+    9.splice() - adds new element to an array with position/index number
+        Syntax: splice(position, deleteCount, newElement/s)
+    10.slice() - creating new array with given array.
+
+
+Array Sorting:
+    1. sort()
+        - sorting string array into asc order.
+    2. reverse()
+        - sorting string array into desc order.
+    3. compare function
+        it uses for numeric array or object array
+
+        Syntax:
+            for Asce Order:
+
+            arrayName.sort(function(a,b){
+                retrun a-b;
+            })
+
+
+
+            for desc Order:
+
+            arrayName.sort(function(a,b){
+                retrun b-a;
+            })
