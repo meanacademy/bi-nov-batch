@@ -1,0 +1,76 @@
+What is an HTML5?
+    - it is Hyper Text Markup Language
+    - it is used for web page design
+    - it has multiple or series of elements/tags
+    - we can see the output of an html page on web browsers
+
+Structure:
+    <tag/element> - opeing tag
+        //text content
+    </tag>        - closing tag
+
+    <tag />       - self closing tag
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                Title of a page
+            </title>
+        </head>
+        <body>
+            Text content to be displayed on web browsers..
+        </body>
+    </html>
+
+Attributes:
+    html attribute is providing addtional information about html element/tag.
+    href - hyperlink or hyperreference (a) 
+    src - soruce/source file (img)
+    alt - alternative text (img)
+    width   - width for text conent on webpage (all the elements/tags)
+    height  - height for text conent on webpage (all the elements/tags)
+    style - it is used for styleing page in inline css
+
+Tables:
+
+
+Semantic Elements/Tags:
+    <table>
+    <form>
+    <article>
+    <section>
+    <figure>
+    <figcaption>
+    <header>
+    <footer>
+    <nav>
+    <mark>
+    <main>
+    <aside>
+
+
+Tags:
+1. heading tags
+heading tags from <h1> to <h6>
+2. <p> - paragraph tag
+3. links in html - <a>
+
+
+Listing Tags:
+    ordered listing
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    unordered listing
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+
+Assignment:
+- create a webpage for your resume (without css)
+- file name should be - 
+    studentName-resume.html
