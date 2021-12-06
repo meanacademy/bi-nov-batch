@@ -1,0 +1,18 @@
+HTML Form:
+
+<form>
+    form elements
+</form>
+
+
+Form Elements:
+    1. input (text filed)
+        <input type="text" >
+        <input type="button" >
+        <input type="radio" >
+        <input type="checkbox" >
+        <input type="submit" >
+    2. textarea
+        <textarea rows=5 cols= 3 />
+    3. Label
+    4. Select Option

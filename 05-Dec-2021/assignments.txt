@@ -1,0 +1,6 @@
+1. Create Student Registration from for MERN or MEAN Stack Development Training
+    - interested stack (MERN or MEAN)
+    - interested languages (select any 3 out of 5)
+2. Create a simple video website which will show 3 videos in a rows 
+    - it should be muted while loading website
+    - alternative video has to be with controls
