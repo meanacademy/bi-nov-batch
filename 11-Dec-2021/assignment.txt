@@ -1,0 +1,6 @@
+CSS Assignment
+1. Design resume that you have created by HTML elements in last assignment with CSS properties
+2. Design a video assignment with CSS properties so they will look like a YouTube video Gallery/thumbnails
+
+
+studentName-css-assignment

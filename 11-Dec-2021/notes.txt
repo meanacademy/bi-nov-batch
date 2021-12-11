@@ -1,0 +1,149 @@
+Introduction:
+    CSS?
+        Cascading Sytle Sheet
+        With CSS we can style our HTML page
+        It has various properties to design and style Webpage
+
+    Syntax:
+        selector {
+                    property: value;
+                    property: value;
+                 }
+    
+    How to use CSS?
+        1. Inline CSS
+            we can use "style" attribute in html element or tag
+        2. Internal CSS
+            to use internal css we have to use "style tag" in "head tag" 
+        3. External CSS
+            link tag used to external css
+
+            Syntax: <link rel="stylesheet" href="mystyle.css"> 
+
+
+    Selector:
+        1. element selector
+        2. id selector
+        3. class selector
+        
+        1. element selector:
+            the element selector is an HTML element or tag
+            p{
+                color: green;
+            }
+
+            h1{
+                color: yellow;
+                background-color: black;
+            }
+        
+        2. id selector
+            it will use id attribute of an HTML element or tag
+            it uses # to identify the element which has named attribute or tag name
+
+            #idName {
+
+            }
+            
+        3. class selector:
+            it will use class attribute of an HTML element or tag
+            we can identify the element by its classname
+            we can apply for multiple html elements
+            to identify the class we can use . 
+
+            .classNane{
+
+            }
+
+        4. universe selector
+            * - universe selector
+            it will apply all the styleing to a webpage
+
+            *{
+
+            }        
+
+CSS Properties:
+    1. color
+        this property sets the color to our HTML text content
+
+        How to use:
+        1. HEX Code 
+        2. RGB Code
+        3. HSL
+
+        {color: value}
+        {color: #7DE86A}
+
+    2. background-color
+        this will change the background color of html element or web page
+
+        How to use:
+        1. HEX Code 
+        2. RGB Code
+        3. HSL
+
+        {background-color: alue}
+        {background-color: #7DE86A}
+    
+    3. background-image
+        this will apply image as a background
+
+        How to use:
+        {
+            background-image: url("")
+        }
+
+    4. background-repeat
+        it will repeat with given value
+            no-repeat
+            repeat-x
+            repeat-y
+
+        How to use:
+        {
+            background-repeat: no-repeat
+        }
+    5. Border
+        it will give a border to an element of HTML page with all positions (top, right, bottom, left)
+
+        {border-top: size style color}
+        {border-left: size style color}
+        {border-right: size style color}
+        {border-bottom: size style color}
+
+        {border: size style color}
+
+        border styles:
+            solid
+            dashed
+            dotted
+            double
+
+    6. border-radius
+        it gives radious to border corners 
+
+        {border-radius: value}
+
+    7. Margin
+        it gives margin to html element or webpage from all positions (top, right, bottom, left)
+        margin is free space on element border
+
+        {margin-top: value}
+        {margin-bottom: value}
+        {margin-left: value}
+        {margin-right: value}
+
+        {margin:top right bottom left}
+        {margin:top-bottom right-left}
+    
+    8. padding
+        it gives frees space inside on border of html element
+
+        {padding-top: value}
+        {padding-bottom: value}
+        {padding-left: value}
+        {padding-right: value}
+
+        {padding:top right bottom left}
+        {padding:top-bottom right-left}

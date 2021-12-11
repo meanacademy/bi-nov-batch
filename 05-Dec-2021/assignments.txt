@@ -4,3 +4,5 @@
 2. Create a simple video website which will show 3 videos in a rows 
     - it should be muted while loading website
     - alternative video has to be with controls
+
+studentName-html-assignment

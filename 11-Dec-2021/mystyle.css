@@ -1,0 +1,93 @@
+* {
+  /* background-color: cadetblue; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  /* background-image: url("https://picsum.photos/200");
+  background-repeat:no-repeat;
+  background-position: right bottom; */
+}
+
+h3 {
+  color: rgb(129, 129, 87);
+  background-color: black;
+  text-align: center;
+}
+p {
+  color: green;
+}
+
+#para2 {
+  color: blue;
+}
+
+#para3 {
+  color: blue;
+  background-color: yellow;
+}
+
+.myparaclass {
+  color: blueviolet;
+  background-color: black;
+}
+
+.customFont {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+h3,
+p {
+  font-weight: 600;
+}
+
+
+/* h2{
+    color: #3878E7;
+} */
+/* h2{
+    color: rgb(56, 120, 231);
+} */
+/* h2{
+    color: hsl(218, 76%, 56%);
+} */
+h2{
+    color: rgba(154, 183, 235, 0.4);
+    background-color:#202020;
+}
+
+
+div{
+    height:150px;
+    width:150px;
+    /* background-color:red; */
+    background-image: url("https://picsum.photos/200");
+    /* border-top: 2px solid black; */
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black;
+    /* border-left: 2px solid black; */
+    /* border: 5px double red; */
+    border-radius: 8px;
+}
+
+#myDiv{
+    /* width:250px;
+    height:150px; */
+    background-color: green;
+    background-image: none;
+    border: none;
+    border-radius:0;
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px; */
+    /* margin: 20px 10px 20px 10px; */
+    margin: 20px 10px;
+
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    padding: 20px;
+/*  padding: 10px 20px; */
+}
