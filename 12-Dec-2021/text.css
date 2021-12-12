@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+p{
+    text-align: justify;
+    /* direction: rtl; */
+    text-indent: 20px;
+    line-height:1.5;
+    /* letter-spacing:5px;   */
+    word-spacing:5px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 15px;
+    /* display: none; */
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(153, 150, 147);
+    color: white;
+    border-radius: 4px;
+    padding:3px;
+    /* display: block; */
+}
+
+ul{
+    list-style-type:square;
+    /* list-style-image: url('check.png'); */
+}
+
+ol{
+    list-style-type:upper-alpha
+}
+
+table,tr, td, th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    padding:5px;
+}
+
+table{
+    width:100%;
+}
+
+th{
+    background-color: cadetblue;
+    color: azure;
+}
+
+h3{
+    display: inline;
+}
+
+/* div{
+    width:100px;
+    height: 100px;
+    background-color:red;
+    position: relative;
+    left: 50px;
+    top: 50px;
+} */
+
+button{
+    border: none;
+    font-size: 12px;
+
+    position: fixed;
+    bottom:0;
+    right:0;
+
+}
+
+#relatveDiv{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    padding:10px;
+}
+
+#absoluteDiv{
+    position: absolute;
+    top:150px;
+    right:0;
+    border: 1px solid red;
+    padding: 10px;
+    width: 300px;
+}
+
+header{
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic ;
+    color: chocolate;
+    background-color:black;
+    position: sticky;
+    top:0;
+}

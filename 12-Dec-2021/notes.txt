@@ -1,0 +1,76 @@
+Text Alignment
+
+- we can align text in center, right, and left position
+
+    {text-align: center;}
+    {text-align: left;}
+    {text-align: right}
+
+Text Decoration
+
+    {direction:rtl;}
+    {direction:ltr;}
+
+    {text-decoration:overline;}
+    {text-decoration:underline;}
+    {text-decoration:line-through;}
+    {text-decoration:none;}
+
+
+Text Transformation
+    {text-transform:uppercase;}
+    {text-transform:lowercase;}
+    {text-transform:capitalize;}
+
+Text Spacing
+    { text-indent: 20px;}
+    {line-height:1.5;}
+    {letter-spacing:5px;}
+    {word-spacing:5px;}
+
+Font
+    {
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+List
+    {
+        list-style-type:square;
+        list-style-image: url('check.png');
+    }
+    {
+        list-style-type:upper-alpha
+    }
+
+Tables
+    table,tr, td, th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    padding:5px;
+    }
+
+    table{
+        width:100%;
+    }
+
+    th{
+        background-color: cadetblue;
+        color: azure;
+    }
+
+Display
+    { display: inline; }
+    { display: block; }
+    { display: none; }
+
+Position
+
+    static
+    relative
+    fixed
+    absolute
+    sticky

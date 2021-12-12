@@ -1,0 +1,53 @@
+*{
+    background-color: antiquewhite;
+}
+form{
+
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+label, input{
+    display: block;
+    padding:5px;
+    border-top: none;
+}
+
+input[type=text]{
+    width: 100%;
+}
+
+
+input[type=number]{
+    width: 100%;
+}
+
+
+input[type=email]{
+    width: 100%;
+}
+
+input[type=radio]{
+    display: inline;
+}
+
+select{
+    /* width: 100%; */
+    width:300px;
+    height: 25px;
+}
+
+input[type=checkbox]{
+    display: inline;
+}
+
+
+input[type=button]{
+    width: 100%;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
