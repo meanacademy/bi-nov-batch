@@ -1,0 +1,144 @@
+//js outputs
+//1. alert()
+// alert('Hello..!')
+
+//2. console.log()
+let username = "Gaurav";
+let marks = 70;
+console.log("Hello from console!");
+console.log(username);
+console.log(marks);
+
+console.log("hello", username, marks);
+
+//3. document.write()
+console.log(document);
+document.write("Hello from document.write()!");
+
+//4. innerHTML
+document.getElementById("post").innerHTML = "Hello from innerHTML!";
+document.getElementById("post2").innerHTML = 100 + 200;
+document.getElementById("post3").innerHTML = "Hello" + " " + username;
+
+//Global and Block Scope
+var address = 'Pune';
+let country = 'India';
+var country2 = 'United States';
+console.log(address, country2);
+
+function myFunction() {
+    country2 = 'UK';
+    console.log(address, country2);
+}
+console.log(country2);
+myFunction();
+
+var address = 'Mumbai';
+console.log(address, country);
+
+// let country = 'USA';
+console.log(address, country);
+
+function myFunction2() {
+    var pincode = 123456;
+    console.log(pincode);
+}
+
+myFunction2();
+
+console.log(pincode);
+
+
+//JS functions
+//Function Declartion
+//1. Default Function
+function addition() {
+  let result = 10 + 20;
+  console.log(result);
+}
+
+//Function Call
+addition();
+
+//2. Parameter Function
+function parameterFunction(num1, num2) {
+  console.log(num1, num2);
+  // let result = num1 + num2;
+  let result = 100 + 500;
+  console.log(result);
+}
+
+parameterFunction(100, 200);
+
+//3. Return Function
+function returnFunction() {
+  let value;
+  value = 200 / 2;
+  if (false) {
+    return value;
+  } else {
+    return 'Null Value';
+  }
+}
+
+let res = returnFunction();
+console.log(res);
+
+// 4. Return Function with parameters
+function returnFunctionWithParameters(num) {
+    let result = num * 2;
+    return result;
+}
+
+let multiplication = returnFunctionWithParameters(10)
+console.log(multiplication);
+
+//Conditonal Statements
+// 1. if(condition){
+//execute - when if condition is true
+// }
+
+// 2. if(condition){
+//execute - when if condition is true
+// } else {
+//execute - when if condition is false
+// }
+
+// 3. if(condition){
+//execute - when if condition is true
+// } else if (condition) {
+//execute - when if condition is false and else if condition is true
+// } else {
+//execute - when if and else if condition is false
+// }
+
+//condition - true/false (boolean)
+
+let isTrue = false;
+let age = 17;
+
+if (isTrue) {
+  console.log("You are true..!");
+}
+
+if (age >= 18) {
+  console.log("You may vote..!");
+}
+
+if (age >= 18) {
+  console.log("You may vote..!");
+} else {
+  console.log("You are not allowed to vote..!");
+}
+
+let marks = 55;
+
+if (marks == 50) {
+  console.log("Pass");
+} else if (marks > 50 && marks <= 64) {
+  console.log("First Class");
+} else if (marks >= 65) {
+  console.log("Distiction");
+} else {
+  console.log("Fail");
+}
