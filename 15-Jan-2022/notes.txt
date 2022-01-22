@@ -1,0 +1,60 @@
+ES6 - EchmaScript 6
+1. String / Template literals
+    it enclosed with backticks ``
+
+    Syntax:
+    ` string witl ${expression or variable} `
+2. Arrow Function
+    Syntax:
+    //traditional function syntax
+    function functionName(arg1, arg2, .., argN){
+
+    }
+
+    //js arrow function syntax
+    let functionName = (arg1, arg2), .., argN) => {
+
+    }
+
+3. Defaul Parameter Function
+    Syntax:
+    let functionName = (arg1 = 0, arg2 =0) =>{
+
+    }
+
+4. JS Destructuring
+5. JS Classes
+    js constructor function
+    function Person(){
+
+    }
+
+    Syntax:
+    Create a class in JS 
+    class ClassName{
+     //user defined properties
+     private property1;
+     public property2;
+     protected property3;
+     property4 = 12345478;
+
+     //default method of a class
+     constructor(p){}   
+
+     //user defined methods
+     methodName(){} 
+     methodName2(p1, p2){} 
+    }
+
+    to access class properties and methods you need to create an object of a class
+    to create an object of a class
+
+    let classObjectName = new ClassName(p) 
+    classObjectName.propertyName;
+    classObjectName.methodName();
+
+    access modifiers
+    there are three access modifiers in class
+    1. public
+    2. private
+    3. protected
