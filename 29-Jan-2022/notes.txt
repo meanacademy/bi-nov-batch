@@ -1,0 +1,64 @@
+Node.JS
+
+Introduction
+    - Node.JS is an open source and cross-platform runtime environment for executing JavaScript code outside a browsers.
+    - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+    - Node.js is not a framework and not a programming language.
+    - Node.js usually used for building back-end services like APIs for web and mobile applications.
+    - Node.js used in most popular prodcution companies such as Uber, Paypal, Netflix, Walmart and so on...
+
+Key Features
+    - It is easy to implement and prototyping in agile development.
+    - It provides fast and highly scalable services.
+    - Source code cleaner and consistent
+    - There is a large ecosystem for open source libraries
+    - It is asynchronous and non-blocking in nature
+    - It is single threaded.
+
+NPM 
+    Node Package Manager
+    - default package manager for node.js
+    - with npm we can install external libraries/packages in our project
+    - npm written in javascript
+    - to install package in project/app
+        npm install package_name
+        or
+        npm i package_name
+    - to uninstall package from project/app
+        npm uninstall package_name
+
+Run Node.JS File/App   
+    Syntax
+    node file_name
+    Ex. 
+    node app.js
+
+Node.JS Modules
+    Module is a piece of functionality that is arranged in a single or several JS files 
+    So we can use these modules in application.
+
+    Types:
+        1. Built-in Module
+            http
+            fs
+            path
+
+        2. Local Module
+            Modules created directly in application are known as local module.
+
+        3. Third-party Module
+            Modules that can be downloaded with NPM is called as third party module
+            express, mongoose, angular, react
+        
+        4. To use built-in modules, enternal modules 
+            const moduleObj = require('moudle_name)
+
+Global vs Local Instllation
+    Local 
+        npm i package_name --save
+    Global
+        npm i -g package_name
+
+Global Variables
+    __dirname
+    __filename

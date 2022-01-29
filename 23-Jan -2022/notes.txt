@@ -1,0 +1,31 @@
+AJAX
+    it is Asynchronous JavaScript and XML
+    it is already existing in js so, it is not a programming language
+    it helps to fetch the data dynamically, without interfering with existing page
+    we dont have reload or refresh
+
+How it works
+    it uses XMLHttpRequest object (xhr)
+    Data can be transfer in any format ex. text, html, json, xml etc
+    data transfer can use any protocol ie. http or https
+
+XMLHttpRequest
+    it uses for updating web page without refresh
+    it uses to request data from server
+    it helps to receive data from server
+    it send data to server
+
+HTTP Methods
+    GET
+    POST
+    PUT
+    DELETE
+
+onreadystatechange 
+    XMLHttpRequest.readyState 
+    has 5 states
+    0   UNSET
+    1   OPENED
+    2   HEADER_RECEIVED
+    3   LOADING
+    4   DONE
