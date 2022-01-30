@@ -1,0 +1,212 @@
+MongoDB
+    - MongoDB is an open source document oriented database
+    - in mongodb we can store unstructured data
+    - Mongodb comes in NoSQL category
+    - it also provides offical drivers support for all the popular programming languages like C3, Java, Node.JS, PHP, so on....
+
+How MongoDB works?
+    - MongoDB database contains collections like tables in mysql database
+    - it allows us to create multiple collections
+    - inside this collection we have documents
+    - document is a JSON like data (key-value pair object)
+    - the store in the database in the format of BSON (Binary of a JSON)
+
+Features 
+    Schema-less Database(No Structure for database)
+    Document oriented
+    Indexing
+    Scalibility
+    Replication
+    Aggregation
+    High Performance
+
+RDBMS(MYSQL) vs MongoDB
+    RDBM - Relational Database Management System
+        RDBMS is a relational database
+        MongoDB is non-relational database(It is a document oriented database)
+
+        RDBMS is not suitable for hierarchical data storage
+        MongoDB is suitable for hierarchical data storage
+
+        RDBMS has predefined Schema (Structured)
+        MongoDB is schema less (It has dynamic schema)
+
+        RDBMS supports ACID properties (Atomicity, Consistancy, Isolation, and Durability)
+        MongoDB supports CAP theorem (Consistancy, Availability, and Partition Tolerance)
+
+        In performance, RDBMS is slower than MongoDB
+        In performance, MongoDB is faster than RDBMS
+
+Advantages of MongoDB
+    - It is schema-less NoSQL database
+    - it provides flexibility to the field in the document
+    - it provides high performance, availability and scalability
+
+Disadvantages of Mongodb
+    - it uses high memory for data storage
+    - you are not allowed to store more than 16MB data in the document(single document)
+    - the nesting of data in BSON is also limited. You are not allowed to nest data more than 100 levels
+
+How to install MongoDB?
+    visit official website - mongodb.com
+    or
+    download form following link
+    https://www.mongodb.com/try/download/community
+
+    Instructions to install on your systems
+    https://docs.mongodb.com/manual/installation/
+
+
+what is mongod and mongo
+    - mongod is used to strat mongodb server
+    - mongod is used as a server
+    - mongod will wait for mongodb client to connect and run queries for the data 
+    - mongodb server has default port no - 27017
+    - mongo is mongodb client
+    - with mongo we can run mongodb shell
+    - mongodb shell is a terminal where we can run our mongodb queries
+    - in mongodb shell we can run javascript code too.
+    - mongodb shell is developed with javascript
+    
+Start with MongoDB
+    open terminal or command prompt
+    enter command - mongo
+
+Data Types
+    string
+    integer
+    double
+    longint
+    boolean
+    null
+    binary
+    array
+    object
+
+_id and ObjectId()
+    - every document in collection has auto generated _id
+    - this _id is also used as primary key for a document
+    - _id assign with an objectID
+    - objectID is a hexadecimal format and length is 12 bytes in size
+        4-bytes for timestamp
+        5-bytes for random values (3-bytes for machine id, and 2-bytes for process id)
+        3-bytes for counter
+
+MongoDB Basic Commands
+    1. Create Database
+        - mongodb never creates empty databases
+        - to create a database there should be at least single collection
+        
+        Command:
+        use database_name
+
+        Ex.: 
+        use mydb
+
+        the command 'use' is used to switching the existing database or creating a new database
+
+    2. Get current Database name
+
+        Command:
+        db
+
+    3. Get all databases 
+
+        Command:
+        show dbs
+
+    4. To drop or delete database
+
+        Command:
+        db.dropDatabase()
+
+    5. To create a collection in db
+
+        Command:
+        db.createCollection("collectionName");
+    
+    6. To list all the collections form db
+        Command:
+        show collections
+
+    7. To drop or delete collection form db
+        Command:
+        db.collectionName.drop();
+
+MongoDB CRUD Operations
+    1. Insert Document
+        1.1 insertOne()
+            we can insert document in two ways 
+            if you want to insert single document at a time then use:
+                
+                db.collectionName.insetOne(document)
+                document - object(JSON)
+
+                ex.: 
+                document = {
+                    name: 'akshay',
+                    address: 'Pune'
+                }
+                db.students.insertOne({
+                    name: 'akshay',
+                    address: 'Pune'
+                })
+        1.2 insertMany()
+            if you want to insert multiple documents at the same time then use:
+
+                db.collectionName.insertMany([document1, document2, ..])
+
+                db.students.insertMany([
+                    {
+                        name: 'aayesha',
+                        address: 'delhi'
+                    },{
+                        name: 'vipul',
+                        address: 'hybd'
+                    }
+                ])
+    2. Find documents
+        2.1 find()
+            if you want to get all the documents then use:
+                db.students.find(condition)
+        2.2 findOne()
+            if you want to get first or single document then use:
+                db.students.findOne(condition)
+
+        condition -  it is an object where we can check with database collection data.
+                     also condition is an optional
+        
+        pretty()
+            to get pretty retrival of documents use pretty method to find()
+                db.collectionName.find().pretty()
+    
+    3. Update Document
+        3.1 updateOne(filter, updatedata, option)
+            db.students.updateOne(
+                {"_id" : ObjectId("61f6a2fb1f9844386e62345c")},
+                {
+                    $set: {
+                        address: "Kolkata"
+                    }
+                }
+            )
+
+        3.2 updateMany(filter, updatedata, option)
+            db.students.updateMany(
+                {},
+                {
+                    $set: {
+                        course: 'MEAN/MERN Stack'
+                    }
+                }
+            )
+
+    4. Delete Document
+        4.1 deleteOne(filter)
+            db.students.deleteOne(
+                {
+                    "_id" : ObjectId("61f6a2fb1f9844386e62345c")
+                }
+            )
+        4.2 deleteMany(filter)
+            db.students.deleteMany({})
