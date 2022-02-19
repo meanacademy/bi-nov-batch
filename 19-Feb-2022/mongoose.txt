@@ -1,0 +1,44 @@
+Mongoose
+    Mongoose is mongodb object modeling for node.js
+    with mongoose we can validate or cast and make business logic in simple way
+    mongoose provides a straightforward, schema based solution to model your application data
+
+Install 
+    npm i mongoose
+
+Connect with mongodb db
+    Step 1: Create mongoose instance
+            const mongoose = require('mongoose');
+    Step 2: Connect with mongodb 
+            mongoose.connect('mongod-uri', {useNewUrlParser: true, useUnifiedTopology: true})
+
+            mongodb-uri:
+                Syntax: mognodb://username:password@hostname:port/database_name
+                Ex.: mongodb://localhost:27017/database_name
+    Step 3: check mongodb database connection
+            const db = mongoose.connection
+            db.on('error', ()=>{
+                log(error)
+            })
+            db.once('open', ()=>{
+                log('connection success')
+            })
+    Step 4: Define Schema
+            const collectionSchema = mongoose.Schema({
+                key: value
+            })
+    Step 5: Crete Model 
+            const modelName = mongoose.model('collectionname', collectionSchema);
+    Step 6: Initaialize Value/Create an object
+            const objectName = {
+                key: value,
+                key: value
+            }
+    Step 7: Save document to mongodb 
+            modelName.save((err, document)=>{
+                if(err){
+                    log(err)
+                } else{
+                    log('document added')
+                }
+            })
