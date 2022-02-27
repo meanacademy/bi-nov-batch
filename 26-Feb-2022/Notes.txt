@@ -1,0 +1,68 @@
+REST
+    REpresentational State Transfer 
+API 
+    Application Programming Interface 
+    API is a kind of block of code or software which allows us to communicate with two applications over the internet.
+    RESTful API is an architectural style for an API that uses HTTP requests i.e GET, POST, PUT, DELETE
+    
+ExpressJS
+    - Free and Open Source
+    - Web Framework for Node.JS
+    - we can build a single or multiple page or hybrid web application using express JS
+    - it is lightweight and organized with MVC architecture
+    - with express we can create route api's
+    - it has good and high performance
+    - it is faster and server side development
+
+Install ExpressJS
+    npm install express
+    
+MVC?
+    Model
+        Structure of an application
+    View
+        End User content (HTML)
+    Controller
+        Business Logic
+
+HTTP Methods
+    GET
+        Getting the data form server (may have database)
+    POST   
+        Sending data to server (store in database)
+    PUT
+        Updating the data from server
+    DELETE
+        Deleting the data form server
+
+Baisc Routing
+    app.METHOD(PATH, HANDLER)
+
+    i.e 
+    app.get(path, handler)
+    app.post(path, handler)
+    app.put(path, handler)
+    app.delete(path, handler)
+
+Response Methods
+res.send()
+res.json()
+res.sendFile()
+res.end()
+res.download()
+res.sendStatus()
+
+express.Router
+the express.Router class to create modular, mountable route handlers
+a router instance is a complete middleware and routing system
+
+ExpressJS Middleware
+    middleware executing block of code
+    with the help of middleware we are able make changes in request-response cycle.
+
+Type of Middlewares
+    1. Application Level Middleware
+    2. Router Level Middleware
+    3. Errpr handling 
+    4. Built- in - middleware
+    5. Third Party Middleware
